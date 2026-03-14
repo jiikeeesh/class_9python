@@ -2,7 +2,7 @@ import os
 from google import genai
 
 # Setup the client
-client = genai.Client(api_key="AIzaSyBAxuwN75j50ecmFyi-4UFb7wExINWGMZc") # Or os.getenv("GOOGLE_API_KEY")
+client = genai.Client(api_key="Google-Api Key") # Or os.getenv("GOOGLE_API_KEY")
 
 print("--- Modern Gemini Chat (Type 'exit' to stop) ---")
 
